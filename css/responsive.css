@@ -1,0 +1,17 @@
+/* Untuk Tablet */
+@media all and (max-width: 1024px) {
+    .c100 {
+        margin-left: 15%;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .c100 {
+        margin-left: 38%;
+        margin-bottom: 5%
+    }
+    [data-aos=fade-up]{
+        transform:translateY(50px)
+    }
+}

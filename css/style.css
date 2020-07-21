@@ -2132,7 +2132,7 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
 }
 
@@ -2142,9 +2142,11 @@ body {
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  float: left;
-  margin: 0.4em;
+  /* float: left; */
+  /* margin: 0.4em; */
   background-color: #dfe8ed;
+  margin-left: 25%;
+  margin-bottom: 20%;
 }
 .c100 *, .c100 *:before, .c100 *:after {
   -moz-box-sizing: content-box;
@@ -2882,5 +2884,7 @@ h3 p {
   color: #007bff;
 }
 
-/* margin: 0% 16% -6% 2%; */
+.award {
+  max-width: 25%;
+}
 
