@@ -2860,7 +2860,7 @@ body {
   height: auto;
   width: 50%;
 }
-.row {
+.text-center {
   text-align: center;
 }
 /* hard skill */
@@ -2888,3 +2888,46 @@ h3 p {
   max-width: 25%;
 }
 
+/* awards */
+
+.award {
+  text-align: center;
+}
+
+/* portofolio */
+
+.porto {
+  position: relative;
+  height: 335.104px;
+  text-align: center;
+}
+
+
+/* footer */
+
+.aboutme {
+  text-align: justify;
+  margin: inherit;
+}
+
+.contactme {
+  text-align: inherit;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.followme {
+  text-align: center;
+}
+
+.quick {
+  text-align: center;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
