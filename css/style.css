@@ -2854,6 +2854,10 @@ body {
   height: auto;
 }
 
+.education {
+  left: 0%;
+}
+
 /* experience images */
 .img-fluid {
   max-width: 100%;
@@ -2863,7 +2867,20 @@ body {
 .text-center {
   text-align: center;
 }
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6!important;
+  text-align: center;
+}
+
 /* hard skill */
+
+.type-rings {
+  max-width: 100%;
+  text-align: center;
+  color: black;
+}
+
 .microsoft li {
 list-style: none;
 }
@@ -2888,10 +2905,35 @@ h3 p {
   max-width: 25%;
 }
 
+/* soft skill */
+
+.ul-check li:before {
+  left: 121px;
+  font-size: 20px;
+  top: -.3rem;
+  font-family: "icomoon";
+  content: "\e5ca";
+  position: absolute;
+}
+
 /* awards */
 
 .award {
   text-align: center;
+}
+
+.taekwondo {
+  width: 35%;
+  margin: -7% 0% 0% 0%;
+}
+
+.sport {
+  width: 40%;
+}
+
+.type-list {
+  margin: 10% 0%;
+  color: black;
 }
 
 /* portofolio */
